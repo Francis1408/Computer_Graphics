@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/fancisco/Documents/Computer_Graphics/tad-coordenadas-master'
+gcc -Wall -o coordenadas.o -c coordenadas.c -lm
+gcc -Wall -o teste-coordenadas.o -c teste-coordenadas.c -lm
+gcc -o testes coordenadas.o teste-coordenadas.o -lm
+make: Leaving directory '/home/fancisco/Documents/Computer_Graphics/tad-coordenadas-master'
+ 
